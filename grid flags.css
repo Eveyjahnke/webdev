@@ -1,0 +1,102 @@
+body {
+    background-color: blanchedalmond;
+}
+
+#japan {
+    height: 300px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#japan-white {
+    background-color:white ;
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
+}
+
+#japan-red {
+    background-color:red ;
+    grid-column: 2 / 3 ;
+    grid-row: 2 / 3 ;
+    border-radius: 50%;
+}
+
+#italy {
+    height: 300px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#italy-green {
+    background-color:green ;
+    grid-column: 1 / 1;
+    grid-row: 1 / 4;
+}
+
+#italy-white {
+    background-color:white ;
+    grid-column: 2 / 2 ;
+    grid-row: 1 / 4 ;
+}
+
+#italy-red {
+    background-color:red ;
+    grid-column: 3 / 3 ;
+    grid-row: 1 / 4 ;
+}
+
+#germany {
+    height: 300px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#germany-black {
+    background-color:black ;
+    grid-column: 4 / 1;
+    grid-row: 1 / 1;
+}
+
+#germany-red {
+    background-color:red ;
+    grid-column: 4 / 1 ;
+    grid-row: 2 / 2 ;
+}
+
+#germany-yellow {
+    background-color:yellow ;
+    grid-column: 4 / 1 ;
+    grid-row: 3 / 3 ;
+}
+
+#belgium {
+    height: 300px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#belgium-black {
+    background-color:black ;
+    grid-column: 3 / 1;
+    grid-row: 1 / 4;
+}
+
+#belgium-red {
+    background-color:maroon ;
+    grid-column: 2 / 2 ;
+    grid-row: 1 / 4 ;
+}
+
+#belgium-yellow {
+    background-color:gold ;
+    grid-column: 3 / 3 ;
+    grid-row: 1 / 4 ;
+}
