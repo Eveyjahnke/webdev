@@ -16,13 +16,16 @@ nav > div {
 aside {
     background-color: royalblue;
     height: 50vh;
-    margin: 10px
+    margin: 10px;
+    animation: geting-taller 5s linear 1s infinite;
 }
 
 footer {
     background-color: blue;
     height: 10vh;
-    margin: 10px
+    margin: 10px;
+    animation: spin 5s linear 0s infinite;
+    animation: geting-wider 2s linear 4s infinite;
 }
 
 @keyframes color-swap {
@@ -52,14 +55,7 @@ footer {
     }
 }
 
-@keyframes normal {
-    from {
-        width: 1%;
-    }
-    to {
-        width: 100%;
-    }
-}
+
 
 @media screen and (min-width: 992px) {
     header {
@@ -80,5 +76,31 @@ footer {
 
     aside {
         width: 25vw;
+    }
+}
+
+@keyframes spin { 
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(360deg); 
+    }
+}
+ 
+@keyframes geting-taller {
+    from {
+        height: 100%;
+    }
+    to {
+        height: 200%;
+    }
+}
+
+@keyframes geting-wider {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 150%;
     }
 }
